@@ -282,9 +282,15 @@
     <script>
         const hamburger = document.querySelector('.nav__hamburger-sp');
         const menu = document.querySelector('.nav__menu');
-
+        const menuLinks = menu.querySelectorAll('a');
         hamburger.addEventListener('click', () => {
             menu.classList.toggle('is-open');
+        });
+
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.remove('is-open');
+            });
         });
     </script>
     <script>
