@@ -31,6 +31,10 @@
         </nav>
     </header>
 
+    <button id="page-top" aria-label="ページトップ">
+        ↑
+    </button>
+
 
     <section id="hero">
         <div class="hero-content hero-inner">
@@ -283,6 +287,24 @@
             menu.classList.toggle('is-open');
         });
     </script>
+    <script>
+
+        const pageTop = document.getElementById('page-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                pageTop.style.display = 'block';
+            } else {
+                pageTop.style.display = 'none';
+            }
+        });
+
+        pageTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+
+
 
 </body>
 
