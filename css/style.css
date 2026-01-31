@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "Noto Sans JP";
     background-color: var(--bg-main);
     color: var(--text-main);
     line-height: 1.8;
@@ -538,7 +538,7 @@ body {
     }
 
     #hero {
-        padding: 80px 5% 0;
+        padding: 120px 5% 0;
         text-align: center;
     }
 
