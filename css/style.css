@@ -192,7 +192,6 @@ body {
     filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
 }
 
-/* h3 */
 .hero-sub {
     margin-top: 16px;
     font-size: 1.1rem;
@@ -200,7 +199,6 @@ body {
     color: #0f172a;
 }
 
-/* role */
 .hero-role {
     margin-top: 20px;
     font-size: 0.95rem;
@@ -236,7 +234,7 @@ body {
 }
 
 #hero p {
-    font-family: Noto Sans JP;
+    font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
     font-weight: 700;
     letter-spacing: 0.2em;
     color: var(--text-sub);
